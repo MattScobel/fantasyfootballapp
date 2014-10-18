@@ -1,3 +1,7 @@
+div {
+		font-family: 'Roboto', sans-serif;
+}
+
 .header {
 	background-color:#607d8b;
 	height:125px;
@@ -5,30 +9,39 @@
 	position:fixed;
 	display:block;
 	z-index: 1;
-	margin-top: -45px;
-
+	margin-top: -30px;
 
 }
+
+
 
 .header p {
 	color:#FFFFFF;
 	font-size:3em;
 	text-align:center;
+
 }
 
 .player-card-container {
-	padding-top:100px;
+	padding-top: 130px;
+	background-color: #eceff1;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.player-card-container > div {
+	height: 150px;
+	margin-top: 5px;
 }
 
 .player-cards {
 	color:#FFFFFF;
 	font-size: 5em;
 	text-align: center;
-	padding-top:15px;
-	padding-bottom:15px;
-}
+	padding-top:30px;
+	padding-bottom:30px;
 
-/* Need to figure out how to get each div to inherit a height of:150px instead of placing in each div */
+}
 
 #player-1 {
 
@@ -67,9 +80,12 @@
 	background-color:#00338D;
 }
 
-
 .footer {
 	background-color: #263238;
-	height:100px;
+	height:75px;
 	margin-top:50px;
+	font-size:3em;
+	text-align: center;
+	color:#FFFFFF;
+	padding-top:15px;
 }
