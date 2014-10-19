@@ -32,18 +32,11 @@ filter: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org
 	padding-right: 10px;
 }
 
-.player-card {
-	height: 300px;
-	background-color:#000000;
-	display:inline-block;
-}
-
-.player-card > id {
+.player-card-container > div {
 	height: 150px;
 	margin-top: 5px;
 	margin-bottom: 5px;
 	border-radius: 10px;
-	display:inline-block;
 }
 
 .player-position {
@@ -123,5 +116,4 @@ filter: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org
 	text-align: center;
 	color:#FFFFFF;
 	padding-top:15px;
-	clear:both;
 }
