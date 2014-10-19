@@ -38,7 +38,7 @@ filter: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org
 	display:inline-block;
 }
 
-.player-card > div {
+.player-card > id {
 	height: 150px;
 	margin-top: 5px;
 	margin-bottom: 5px;
